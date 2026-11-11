@@ -3,7 +3,7 @@ function pickGo(ev) {
   ev.preventDefault();
   var c = document.querySelector('.picker input[name=biz]:checked');
   try { sessionStorage.setItem('ecisBiz', c ? c.value : ''); } catch (e) {}
-  location.href = '/ecis1-website/get-a-quote';
+  location.href = '/get-a-quote';
   return false;
 }
 
