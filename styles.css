@@ -105,8 +105,8 @@ body.menu .mnav{display:flex;flex-direction:column;padding:8px 24px 20px;max-hei
 .perscard{border-radius:22px;overflow:hidden;border:1px solid var(--line);color:var(--ink);display:flex;flex-direction:column;transition:.2s}
 .perscard:hover{transform:translateY(-3px);color:var(--ink);box-shadow:0 24px 44px -30px rgba(15,44,79,.5)}
 .perscard img{height:260px;width:100%}.perscard div{padding:22px 24px}.perscard p{color:var(--mut);font-size:15px;margin-top:4px}
-.reviews{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
-.review{margin:0;background:#fff;border-radius:18px;padding:28px;border:1.5px dashed #B7C7D6;display:flex;flex-direction:column;gap:14px}
+.reviews{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}
+.review{margin:0;background:#fff;border-radius:18px;padding:28px;border:1px solid #DCE5EC;display:flex;flex-direction:column;gap:14px}
 .stars{color:#D69517;letter-spacing:3px;font-size:18px}.review blockquote{margin:0;font-size:16px;color:var(--ink2)}.review figcaption{font-weight:700;font-size:14px}
 .pills{display:flex;flex-wrap:wrap;gap:10px}.pills span,.pills a{font:600 14px Inter,sans-serif;padding:10px 15px;border-radius:999px;background:#EEF3F7;color:var(--navy)}
 .pills a{background:var(--navy);color:#fff}.pills a:hover{background:var(--green)}
